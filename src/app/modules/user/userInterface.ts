@@ -10,7 +10,7 @@ export type IUser = {
   lastName: string;
   address: string;
   budget: number;
-  income?: number;
+  income: number;
 };
 
 //  User Exist instance methods
