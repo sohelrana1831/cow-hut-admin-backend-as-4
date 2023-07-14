@@ -1,8 +1,10 @@
 {
-  "name": "digital-cow-hut",
+  "name": "cow-hut-admin-backend-as-4",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.ts",
+   "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
